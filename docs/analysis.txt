@@ -1,0 +1,17 @@
+Analyse globale :
+    - Sémantique HTML à revoir
+    - Problème de responsive
+    - Problème de liens de fichiers (404 sur la page2)
+    - meta description vide
+    - title vide
+    - meta keywords trop barbare
+    - check => viewport-fit=cover
+    - scripts : un en defer; tous chargé en début; check optimisation
+    - utiliser des cdn pour bootstrap, jquery etc ... ???
+    - réorganiser les fichiers / dossiers pour une meilleur organisation
+    - utiliser SASS ???
+    - revoir le naming des page ???
+    - balise html revoir lang
+    - revoir le formulaire => joindre les labels aux inputs etc ...
+    - check le W3C (qui ne doit sûrement pas passer au vert ...)
+    - div.keywords présent dans le site, interêt ???

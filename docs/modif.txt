@@ -1,0 +1,19 @@
+index.htm :
+
+html lang => fr
+scripts en bas
+title modifié
+insertion balise sémantique (main, section, header, article)
+suppression de width dans img
+suppression de li en trop
+alt img : creation web paris => lyon
+suppression des images textuel afin d'écrire du contenu !
+
+
+
+
+
+
+
+TODO: index.html L201 => le paragraphe doit être de même size que le h2
+      footer: voir les margin sous les pics sociaux
