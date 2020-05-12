@@ -11,6 +11,7 @@ suppression des images textuel afin d'écrire du contenu !
 modification des alt pour Paris => Lyon
 viewport modifié
 scrollTop intégrer
+mise en place de https:/ sur les links
 
 index2.html :
 
@@ -32,3 +33,5 @@ insertion lien mailto:
 TODO: index.html L201 => le paragraphe doit être de même size que le h2
       footer: voir les margin sous les pics sociaux
       page2.html => Voir le scrollToTop qui ne sert a rien dans cette page
+      Voir les mots clés, longue traine
+      Check le format d'image optimal pour le SEO
