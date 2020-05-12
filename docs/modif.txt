@@ -24,6 +24,27 @@ modification des alt pour Paris => Lyon
 suppression de li en trop
 insertion lien mailto:
 
+style.css :
+
+99 passage a scroll comme partout
+299
+310 &= ??
+342 suppression px car chiffre 0
+397 suppression px car chiffre 0
+429 à 436 n'est pas utilisé ?
+541 ajout de sans-serif //TODO a check
+652 ajout de sans-serif //TODO a check
+676 margin: auto et auto auto auto auto
+685 margin: auto et auto auto auto auto
+690 ajout de sans-serif //TODO a check
+704 ajout de sans-serif //TODO a check
+721 margin: auto et auto auto auto auto
+722 suppression de px sur valeur 0
+851 à 861 Utile suite au passage de la ligne 99 ?
+867 à 869 Utile suite au passage de la ligne 99 ?
+876, 877, 887, 888 fonction constant inconnu ???
+940 à 943 TODO revoir les borders
+
 
 
 

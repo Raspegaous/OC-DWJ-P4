@@ -296,7 +296,7 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
+    //font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -339,7 +339,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
@@ -394,7 +394,7 @@ a:hover {
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0px;
+        margin-right: 0;
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
@@ -426,14 +426,14 @@ nav .caret {
     border-top-right-radius: 0;
 }
 
-.dropdown-menu .dropdown span {
+/*.dropdown-menu .dropdown span {
     border: 4px solid black;
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
     margin: 6px -5px 0 0!important;
     float: right;
-}
+}*/
 
 .mg-md {
     margin-top: 10px;
@@ -538,7 +538,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -649,7 +649,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "helvetica", sans-serif;
     font-weight: 400;
     color: #575757!important;
 }
@@ -673,7 +673,7 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -682,12 +682,12 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 .cta-hero {
@@ -701,7 +701,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -718,8 +718,8 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
+    margin: auto;
+    box-shadow: 0 0 0 #000000;
 }
 
 h1 {
