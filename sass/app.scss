@@ -1,18 +1,16 @@
-@import "variables";
+@import "./helpers/variables";
+@import "./helpers/mixins";
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/font-awesome/scss/font-awesome";
-@import "et-line";
-@import "_global.scss";
-@import "btn";
-@import "lightbox";
-@import "section1";
-@import "section2";
-@import "section3";
-@import "section4";
-@import "section5";
-@import "section6";
-@import "section7";
-@import "section8";
-
-
-
+@import "./externes/et-line";
+@import "./global/_global.scss";
+@import "./layout/btn";
+@import "./layout/lightbox";
+@import "./pages/section1";
+@import "./pages/section2";
+@import "./pages/section3";
+@import "./pages/section4";
+@import "./pages/section5";
+@import "./pages/section6";
+@import "./pages/section7";
+@import "./pages/section8";

@@ -1,0 +1,21 @@
+// section 6
+.bloc-6 {
+    background: $orange url("../img/dots-bg.png");
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: url('../img/texture-paper.png') 280px 280px;
+    }
+
+    // Les enfants des enfants de .bloc-6
+    & > * > * {
+        font-family: "Helvetica", serif;
+        z-index: 10;
+    }
+}

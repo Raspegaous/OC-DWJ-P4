@@ -1,0 +1,16 @@
+// section 1
+.presentation {
+    background: url('../img/la-chouette-agence-banniere.jpg') no-repeat top;
+    background-size: cover;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: url('../img/texture-paper.png') 280px 280px;
+    }
+}
