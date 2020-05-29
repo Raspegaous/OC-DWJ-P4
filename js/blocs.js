@@ -109,7 +109,7 @@ function inViewCheck() {
 }
 
 function scrollToTopView() {
-    $(window).scrollTop() > $(window).height() / 3 ? $(".scrollToTop").hasClass("showScrollTop") || $(".scrollToTop").addClass("showScrollTop") : $(".scrollToTop").removeClass("showScrollTop")
+    $(window).scrollTop() > $(window).height() / 3 ? $("#scrollToTop").hasClass("showScrollTop") || $("#scrollToTop").addClass("showScrollTop") : $("#scrollToTop").removeClass("showScrollTop")
 }
 
 function setUpVisibilityToggle() {
@@ -194,7 +194,7 @@ $(document).ready(function() {
             scrollTop: $("#scroll-hero").closest(".bloc").height()
         }, "slow")
     }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf("Safari") && -1 == navigator.userAgent.indexOf("Chrome") && $("#page-loading-blocs-notifaction").remove()
-}), $(window).load(function() {
+}), $(window).on('load', function() {
     setFillScreenBlocHeight(), animateWhenVisible(), $("#page-loading-blocs-notifaction").remove()
 }).resize(function() {
     setFillScreenBlocHeight()
