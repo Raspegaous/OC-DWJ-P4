@@ -9946,7 +9946,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-orange {
   background-color: #F3976C;
-  box-shadow: 0 1px 3px rgba(0, 0, 1, 0.25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
   border-radius: 40px;
   padding: .8rem 2rem;
   font-weight: 700;
@@ -9955,7 +9954,10 @@ a.text-dark:hover, a.text-dark:focus {
   text-transform: uppercase;
   z-index: 10;
   font-size: 1.1rem;
-  transition: all .3s; }
+  transition: all 0.3s; }
+  @media (prefers-reduced-motion: reduce) {
+    .btn-orange {
+      transition: none; } }
   .btn-orange:hover {
     background-color: #c27956;
     color: #FFFFFF;
@@ -9974,7 +9976,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: "Helvetica", sans-serif;
   width: 100%;
   max-width: 441.833px;
-  transition: all .3s; }
+  transition: all 0.3s; }
+  @media (prefers-reduced-motion: reduce) {
+    .btn-form {
+      transition: none; } }
   .btn-form:hover {
     background-color: #c27956; }
 
@@ -9990,8 +9995,10 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.3);
   display: flex;
+  -webkit-align-items: center;
   align-items: center;
   justify-content: center;
+  -webkit-justify-content: center;
   color: #575757;
   font-weight: 400;
   transition: all .3s; }
@@ -10002,13 +10009,19 @@ a[data-lightbox] {
   position: relative;
   display: flex;
   justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out; }
+  @media (prefers-reduced-motion: reduce) {
+    a[data-lightbox] {
+      transition: none; } }
   a[data-lightbox]:hover::before {
     content: '+';
     position: absolute;
     display: flex;
     justify-content: center;
+    -webkit-justify-content: center;
     width: 50px;
     height: 50px;
     background: rgba(0, 0, 0, 0.6);
@@ -10023,6 +10036,7 @@ a[data-lightbox] {
 
 #lightbox-modal {
   display: flex !important;
+  -webkit-align-items: center;
   align-items: center; }
   #lightbox-modal .modal-dialog {
     width: 90%;
@@ -10070,11 +10084,15 @@ a[data-lightbox] {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.9);
   background: rgba(0, 0, 0, 0.5);
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   position: absolute;
   top: 45%;
   z-index: 1;
   opacity: 0.4; }
+  @media (prefers-reduced-motion: reduce) {
+    .next-lightbox,
+    .prev-lightbox {
+      transition: none; } }
 
 .next-lightbox {
   padding: 6px 8px 1px 13px;
@@ -10093,9 +10111,7 @@ a[data-lightbox] {
   background: none; }
 
 .presentation {
-  background-repeat: no-repeat;
-  background-position: top;
-  background-image: url("../img/la-chouette-agence-banniere.jpg");
+  background: url("../img/la-chouette-agence-banniere.jpg") no-repeat top;
   background-size: cover;
   position: relative; }
   .presentation::before {
@@ -10112,8 +10128,7 @@ a[data-lightbox] {
 
 .what {
   background-size: cover;
-  background-image: url("../img/image-de-presentation.bmp");
-  background-attachment: scroll;
+  background: url("../img/image-de-presentation.jpg") scroll;
   font-family: "Helvetica", serif;
   position: relative; }
   .what::before {
@@ -10137,8 +10152,7 @@ a[data-lightbox] {
 
 .portfolio {
   font-family: "helvetica", sans-serif;
-  background-repeat: repeat;
-  background-image: url("../img/lines-h2-bg.png"); }
+  background: url("../img/lines-h2-bg.png") repeat; }
 
 .img-gallery {
   width: 100%; }
@@ -10158,8 +10172,7 @@ a[data-lightbox] {
     background: url("../img/texture-paper.png") 280px 280px; }
 
 .bloc-6 {
-  background-image: url("../img/dots-bg.png");
-  background-color: #F3976C;
+  background: #F3976C url("../img/dots-bg.png");
   position: relative; }
   .bloc-6::before {
     content: '';
@@ -10172,6 +10185,9 @@ a[data-lightbox] {
   .bloc-6 > * > * {
     font-family: "Helvetica", serif;
     z-index: 10; }
+
+iframe {
+  border: none; }
 
 .footer {
   background-color: #F3976C;
