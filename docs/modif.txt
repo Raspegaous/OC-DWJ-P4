@@ -12,6 +12,7 @@ modification des alt pour Paris => Lyon
 viewport modifié
 scrollTop intégrer
 mise en place de https:/ sur les links
+ajout de meta robots: index,follow
 
 index2.html :
 
@@ -29,7 +30,3 @@ insertion lien mailto:
 
 
 
-
-
-TODO: Voir les mots clés, longue traine
-      Check le format d'image optimal pour le SEO
