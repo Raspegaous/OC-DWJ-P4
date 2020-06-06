@@ -10111,7 +10111,7 @@ a[data-lightbox] {
   background: none; }
 
 .presentation {
-  background: url("../img/la-chouette-agence-banniere.jpg") no-repeat top;
+  background: url("../img/la-chouette-agence-banniere.webp") no-repeat top;
   background-size: cover;
   position: relative; }
   .presentation::before {
@@ -10128,7 +10128,7 @@ a[data-lightbox] {
 
 .what {
   background-size: cover;
-  background: url("../img/image-de-presentation.jpg") scroll;
+  background: url("../img/image-de-presentation.webp") scroll;
   font-family: "Helvetica", serif;
   position: relative; }
   .what::before {
@@ -10185,6 +10185,9 @@ a[data-lightbox] {
   .bloc-6 > * > * {
     font-family: "Helvetica", serif;
     z-index: 10; }
+
+.form .form-control {
+  max-width: 441.833px; }
 
 iframe {
   border: none; }
