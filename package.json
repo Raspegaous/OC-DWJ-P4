@@ -12,11 +12,15 @@
     "watch": "nodemon -e scss -x \"npm run build\""
   },
   "author": "jeremy bonnet",
-  "license": "ISC", 
+  "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0"
   }
 }
