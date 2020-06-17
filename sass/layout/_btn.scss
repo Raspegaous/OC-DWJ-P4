@@ -1,5 +1,5 @@
 .btn-orange {
-    background-color: $orange;
+    background-color: #fbb290;//$orange;
     @include box-shadow(0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15));
     @include border-radius(40px);
     padding: .8rem 2rem;

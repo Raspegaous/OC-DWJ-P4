@@ -2,7 +2,7 @@
 
 .what {
     background-size: cover;
-    background: url('../img/image-de-presentation.webp') scroll;
+    background: #5d4919 url('../img/image-de-presentation.webp') scroll;
     font-family: "Helvetica", serif;
     position: relative;
 
@@ -23,6 +23,7 @@
     .text-orange {
         text-shadow: 0 1px 0 $orange;
         z-index: 10;
+        color: lighten($orange, 20%);
     }
 
     .text-white {
